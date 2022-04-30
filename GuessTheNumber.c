@@ -3,9 +3,8 @@
 #include <time.h>
 
 int main(){
-    int random_num, input_num, guess = 0, high_score = 0;
+    int random_num, input_num, guess = 0;
     srand(time(0));
-    
     random_num = rand()%100 + 1;
     printf("Enter a number between 1 and 100\n");
 
